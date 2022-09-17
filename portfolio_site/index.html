@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0-beta1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title></title>
+</head>
+<body>
+<div class="hero">
+<div class="container">
+	<nav>
+		<img src="img/logo.png" class="logo">
+		<ul>
+			<li><a href="#" class="active">HOME</a></li>
+			<li><a href="#">ABOUT</a></li>
+			<li><a href="#">SERVICES</a></li>
+			<li><a href="#">SKILLS</a></li>
+			<li><a href="#">TEAMS</a></li>
+			<li><a href="#">CONTACT</a></li>
+			<li><img src="img/moon.png" id="icon"></li>
+		</ul>
+		
+	</nav>
+</div>
+<div class="container">
+<div class="row">
+	<div class="col-md-6">
+	<div class="info">
+		<h1>I'm <span class="name">Kate</span> Amelia</h1>
+		<p>This is the official website to showcase my all work related web<br> development and UI design </p>
+		<a href="#">Download CV</a>
+	</div>
+	<div class="social-links">
+		<a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+		<a href="#"><i class="fa-brands fa-behance"></i></a>
+		<a href="#"><i class="fa-brands fa-dribbble"></i></a>
+		<a href="#"><i class="fa-brands fa-pinterest"></i></a>
+	</div>
+</div>
+<div class="col-md-6">
+	<div class="img-box">
+		<img src="img/pattern.png" class="back-img">
+		<img src="img/girl.png" class="main-img">
+	</div>
+</div>
+</div>
+</div>
+	
+</div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0-beta1/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+	var icon = document.getElementById('icon');
+	icon.onclick = function() {
+		document.body.classList.toggle('dark-theme')
+		if (document.body.classList.contains('dark-theme')) {
+			icon.src="img/sun.png";
+		}
+		else{
+			icon.src="img/moon.png";
+		}
+	}
+</script>
+</body>
+</html>

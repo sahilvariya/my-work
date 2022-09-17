@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box !important;
+}
+body{
+	margin: 0;
+	font-family: Poppins;
+	line-height: 1.5rem;
+	/*width: 100%;
+	height: 100vh;*/
+
+}
+.slider-outer{
+	width: 60%;
+	margin: auto;
+}
+.mobile-home-section{
+	display:none ;
+}
+.slider-inner{
+	display: flex;
+	width: 100%;
+	height: 500px;
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 16pt;
+	transition: all 0.5s ease-in-out;
+}
+a:hover{
+	color: #cf5260;
+
+}
+.brand-name{
+	font-size: 40px;
+	color: white;
+}
+.header-nav{
+	margin:9px 7px;
+}
+.nav-li{
+	display: inline-block;
+	margin-right: 35px;
+	transition:all 0.5s ease-in-out;
+}
+.hover{
+	color: white;
+}
+.hover{
+	color:#db5660;
+}
+.container{
+	max-width: 1140px;
+}
+#home-section{
+	position: ;
+	top: 0;
+	left: 0;
+}
+.home-page{
+	background-image: url('../img/banner.png');	
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	width: 100%;
+	padding: 20px 0px;
+	
+}
+.mob-col-font1{
+	display: none;
+}
+.mob-col-font2{
+	display: none;
+}
+.shoes-img{
+	margin: 56px 60px 70px 20px;
+}
+.shoes-image{
+	max-width: 100%;
+	height: 100%;
+}
+#home-col-2{
+	margin-top: 8%;
+}
+#home-col-2 .col-font1{
+	font-size: 3rem;
+	color: #db5660;
+	font-weight: 400;
+}
+#home-col-2 .col-font2{
+
+	font-size: 4rem;
+	color: white;
+	font-weight: 800;
+}
+#home-col-2 p {
+	font-size: 17px;
+	color: white;
+	line-height: 30px;
+}
+#home-col-2 .btn1{
+	border: none;
+	outline: none;
+	background-color:#db5660 ;
+	padding: 15px 45px;
+	font-size: 1.2rem;
+	font-weight: 500;
+	color: white;
+	transition: all 0.5s ease-in-out;
+}
+#home-col-2 .btn1:hover{
+	border: none;
+	outline: none;
+	background-color:white;
+	padding: 15px 45px;
+	font-size: 1.2rem;
+	font-weight: 500;
+	color: #db5660;
+}
+#home-col-2 .btn2{
+	border: none;
+	outline: none;
+	background-color:white ;
+	padding: 15px 45px;
+	font-size: 1.2rem;
+	font-weight: 500;
+	color: #db5660;
+	transition: all 0.5s ease-in-out;
+
+}
+#home-col-2 .btn2:hover{
+	border: none;
+	outline: none;
+	background-color:#db5660;
+	padding: 15px 45px;
+	font-size: 1.2rem;
+	font-weight: 500;
+	color: white;
+}
+.collection-text2 {
+	font-size: 2rem;
+	font-weight: 700;
+}
+.collection-text3{
+	line-height: 25px;
+	color: #0c0116;
+	font-weight: 400;
+	font-size: 19px;
+}
+.shoes1{	
+    background-color: #ffffff;    
+    box-shadow: 0px 0px 10px 0px;
+    /*margin-top: 40px;*/
+}
+.shoes-img-1{
+	width: 100%;
+	float: left	;
+	margin-left: 90px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.col-text-1{
+	text-align: center;
+	font-size: 1.5rem;
+}
+.dollar-txt{
+	text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+.shoes2{
+	background-image: url(../img/about-img2.png);
+	height: auto;
+    box-shadow: 0px 0px 10px 0px;
+    position: relative;
+    z-index: -1;
+    margin-top: 120px;
+}
+.shoes-img-2{
+	width: 100%;
+	float: left;
+	padding-top: 70px;
+    padding-bottom: 70px;
+    margin-left: 90px;
+}
+.dollar-txt2{
+		text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 3px;
+}
+.stars{
+display: flex;
+justify-content: center;
+padding-bottom: 10px;
+list-style: none;
+}
+.star-icon{
+	margin-right: 15px;
+}
+.new-tag{
+	width: 90px;
+    height: 40px;
+    background-color: black;
+    position: absolute;
+    z-index: 2;
+ 
+}
+.new-txt{
+	color: white;
+	font-size: 20px;
+    font-weight: 400;
+    padding: 8px 22px;
+}
+.See-More-btn{
+	border: none;
+	outline: none;
+	background-color:#ff4e5b;
+	padding: 15px 45px;
+	font-size: 1.2rem;
+	font-weight: 500;
+	color: white;
+	margin: 10px 0;
+	transition: all 0.5s ease-in-out;
+}
+.shoes-img1{
+padding: 40px 0px 40px 19px;
+}
+.racing-boots-section{
+	background-color: #eae7e7;
+}
+.jog-font{
+	font-size: 4rem;
+	font-weight:700 ;
+	line-height: 80px;
+
+}
+.new-collection-product{
+	background-color: #ff4e5b;
+}
+.product-inner{
+   width: 100%;
+    float: left;
+    background-color: #ffffff;
+    height: 90%;
+    padding: 20px 0px 2px 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.center {
+	text-align: center;
+}
+.best_shoes{
+	padding: 20px 0px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.dollar-txt3{
+text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+}
+.buy-now-btn{
+	border: none;
+	outline: none;
+	background-color:black;
+	padding: 15px 45px;
+	font-size: 1.2rem;
+	font-weight: 500;
+	color: white;
+	margin: 10px 0;
+	transition: all 0.5s ease-in-out;
+}
+.buy-now-btn:hover{
+	border: none;
+	outline: none;
+	background-color:white;
+	padding: 15px 45px;
+	font-size: 1.2rem;
+	font-weight: 500;
+	color: black;
+	margin: 10px 0;
+}
+.new-collection-product{
+	padding: 40px 0;
+}
+.contact-info{
+	width: 100%;
+	height: auto;
+	background-color: #14120e;
+	opacity: 0.80;
+}
+.custom-input{
+	    outline: none;
+    border: 1px solid;
+    width: 100%;
+    height: 50px;
+    font-size: 25px;
+    padding: 0px 15px;
+}
+.input-form{
+	    padding: 25px;
+}
+.custom-input-text{
+	outline: none;
+    border: 1px solid;
+    width: 100%;
+    height: 120px;
+    font-size: 25px;
+    padding: 0px 15px;
+}
+.section_footer{
+	background-color: #272222;
+	height: auto;
+	padding: 30px 0px;
+}
+.footer-logo{
+	color: white;
+}
+.map_text{
+	padding-left: 20px;
+}
+.footer-li{
+	display: inline-block;
+    margin-right: 20px;
+}
+.footer_section_2{
+	color: white;
+}
+.shop_text{
+	color: #ebebeb;
+	
+}
+.footer-ul{
+	margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+}
+.footer2-row{
+	line-height: 33px;
+    padding: 35px 0px;
+}
+.enter_email{
+	outline: none;
+    border: 1px solid;
+    width: 100%;
+    height: 50px;
+   
+    padding: 0px 15px;
+}
+.copyright-section{
+	background-color: #ff4e5b;
+	text-align: center;
+}
+.copyright-txt{
+	    padding: 10px 0px;
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+}
+.Subs-btn{
+	outline: none;
+    background-color: #ff4e5b;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+
+}
+.mobile-slider{
+	display: none;
+}
+@media only screen and (max-width: 700px){
+	.hide-mobile{
+		display: none;
+	}
+	.mobile-slider{
+		display: block;
+	}
+	.col-font1{
+		display: none;
+	}
+	.col-font2{
+		display: none;
+	}
+	.home-page{
+	background-color: black;	
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	width: 100%;
+	padding: 20px 0px;
+	
+}
+.mobile-home-section{
+	display: block;
+}
+.home-page{
+	background-image: none;
+}
+.mob-col-font1{
+	display: block;
+    font-size: 2rem;
+    color: #db5660;
+    font-weight: 500;
+    padding: 0px 23px;
+}
+.mob-col-font2{
+	display: block;
+    font-size: 3rem;
+	color: white;
+	font-weight: 600;
+	padding: 0px 22px;
+}
+.jog-font{
+	font-size:2rem;
+	line-height: 50px;
+}
+.mob-shoes-img{
+	padding: 10px 40px;
+}
+}
+@media only screen and (width: 768px){
+.hide-mobile{
+		display: none;
+	}
+	.home-page{
+	background-image: none;
+}
+
+	.mob-col-font2{
+font-size: 20px;
+	color: white;
+	font-weight: 600;
+}
+
+}

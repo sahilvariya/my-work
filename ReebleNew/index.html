@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+      <style type="text/css">
+         .glow {
+         background: 50% 100% / 50% 50% no-repeat
+         radial-gradient(ellipse at bottom, #fff, transparent, transparent);
+         -webkit-background-clip: text;
+         background-clip: text;
+         color:#F24462;
+         font-size: 40px;
+         font-weight: 600;
+         font-family: ubuntu;
+         animation:
+         glow 2500ms linear infinite 2000ms;
+         }
+         @keyframes reveal {
+         80%{
+         letter-spacing: 8px;
+         }
+         100% {
+         background-size: 300% 300%;
+         }
+         }
+         @keyframes glow {
+         40% {
+         text-shadow: 0 0 15px #f24462;
+         }
+         }
+      </style>
+      <title>Reeble</title>
+   </head>
+   <body >
+      <a id="button"></a>
+      <div class="">
+         <div style="background: linear-gradient(180deg, #F5F5F5 54.49%, rgba(245, 245, 245, 0) 147.36%);">
+            <!-- site-navbar start -->
+            
+            <div class="navbar-area mobile-nav">
+               <div class="container">
+                  <nav class="site-navbar">
+                     <!-- site logo -->
+                     <a href="#home" class="site-logo"><img src="img/logo.png"></a>
+                     <!-- site menu/nav -->
+                     <ul>
+                        <li><a href="#home" class="js-anchor-link">Home</a></li>
+                        <li><a href="#benefit" class="js-anchor-link">Benefits</a></li>
+                        <li><a href="#service" class="js-anchor-link">Services</a></li>
+                        <li><a href="#client" class="js-anchor-link">Clients</a></li>
+                        <li><a href="#contact" class="js-anchor-link">Contact</a></li>
+                     </ul>
+                     <!-- nav-toggler for mobile version only -->
+                     <button class="nav-toggler">
+                     <span></span>
+                     </button>
+                  </nav>
+               </div>
+            </div>
+            <!-- navbar-area end -->
+            <div class="intro-area" id="home">
+               <div class="container">
+                  <div class="row p-0">
+                     <div class="col-lg-7 col-md-6 col-sm-12" style="z-index: 2;">
+                        <div class="element-1">
+                           <img class="avatar" src="img/element.png">
+                        </div>
+                        <div class="glow pt-4">
+                           ADD DIGITAL GO GLOBAL
+                        </div>
+                        <p class="pt-3">Enabling Elite Sports<br> Academies, Athletes & Agencies</p>
+                        <div class="container pt-3">
+                           <div class="row">
+                              <div class="col-md-6 align-center">
+                                 <div class="row p-0 consultation-btn">
+                                    <div class="col-md-2">
+                                       <i class="fa-solid fa-play play"></i>
+                                    </div>
+                                    <div class="col-md-10">
+                                       <div class="mobile-center" style="width: 160px;padding-top: 14px;margin-left: 8px;" >
+                                          Consultation example
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-6 align-center">
+                                 <div class="row p-0 learninghub-btn">
+                                    <div class="col-md-2">
+                                       <i class="fa-solid fa-play learn-play"></i>
+                                    </div>
+                                    <div class="col-md-10">
+                                       <div class="mobile-center" style="width: 160px;padding-top: 14px;margin-left: 8px;" >
+                                          Learning hub example
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <img class="element2 avatar" src="img/element2.png">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-5 col-md-6 col-sm-12 pl-0 d-sm-none d-md-block">
+                        <div class="element5">
+                           <img class="avatar"src="img/element5.png">
+                        </div>
+                        <div class="element4">
+                           <img class="avatar" src="img/element4.png">
+                        </div>
+                        <div class="rectangle1">
+                           <div class="container">
+                              <div class="row">
+                                 <div class="col-lg-3">
+                                    <div class="phone-image"></div>
+                                 </div>
+                                 <div class="col-lg-9 home-section-txt">
+                                    <h5 class="pt-1">Consultation</h5>
+                                    <h6>Get perosnalized video 
+                                       feedback from your coach
+                                    </h6>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="rectangle2">
+                           <div class="container">
+                              <div class="row">
+                                <div class="col-lg-9 home-section-txt">
+                                    <h5 class="pt-1">Master class video</h5>
+                                    <h6>Learn from the best video package created for you</h6>
+                                 </div>
+                                 <div class="col-lg-3">
+                                    <div class="phone-image" style="right: 19px"></div>
+                                 </div>
+                                 
+                              </div>
+                           </div>
+                        </div>
+                        <div>
+                           <div style="display: flex;justify-content: center;">
+                              <img class="home-image" src="img/Phone.png">
+                           </div>
+                           <img class="element3 avatar" src="img/element3.png">
+                           <div class="rectangle3">
+                              <div class="container">
+                                 <div class="row">
+                                    <div class="col-lg-3">
+                                       <div class="phone-image"></div>
+                                    </div>
+                                    <div class="col-lg-9 home-section-txt">
+                                       <h5 class="pt-1">Online Classes</h5>
+                                       <h6>Interactive class with one to one or one to all</h6>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="rectangle4">
+                              <div class="container">
+                                 <div class="row">
+                                  <div class="col-lg-9 home-section-txt">
+                                       <h5 class="pt-1">Subscription</h5>
+                                       <h6>Get perosnalized video 
+                                          feedback from your coach
+                                       </h6>
+                                    </div>
+                                    <div class="col-lg-3">
+                                       <div class="phone-image" style="right: 19px"></div>
+                                    </div>
+                                    
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="header">
+            <img class="home-bg-image" src="img/background.png">
+         </div>
+         <section id="benefit" class="Benefits pb-4" style="margin-bottom: 35px;">
+            <div class="container">
+               <div class="">
+                  <h2 class="text pt-4">Your Benefits</h2>
+                  <p class="desc pt-3"> What Benefits</p>
+               </div>
+               <div class="">
+                  <div class="container" style="margin:35px 0;">
+                     <div class="row slider">
+                        <div class="col-lg-12 col-md-6 col-sm-12 pt-3">
+                           <div class="Benefits-box">
+                              <div style="padding: 15px 29px;">
+                                 <div class="Benefits-circle1"></div>
+                              </div>
+                              <div class="Benefits-text1">
+                                 <p class="line">Take your Brand to International Markets & Acquire New Customers.</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-12 col-md-6 col-sm-12 pt-3">
+                           <div class="Benefits-box">
+                              <div style="padding: 15px 29px;">
+                                 <div class="Benefits-circle2"></div>
+                              </div>
+                              <div class="Benefits-text2">
+                                 <p class="line">Share your Coaching philosophy and Knowledge to Wider Audience.</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-12 col-md-6 col-sm-12 pt-3">
+                           <div class="Benefits-box">
+                              <div style="padding: 15px 29px;">
+                                 <div class="Benefits-circle3"></div>
+                              </div>
+                              <div class="Benefits-text3">
+                                 <p class="line">Own your Own Data (rather than sharing your information to other platform).</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-12 col-md-6 col-sm-12 pt-3">
+                           <div class="Benefits-box">
+                              <div style="padding: 15px 29px;">
+                                 <div class="Benefits-circle4"></div>
+                              </div>
+                              <div class="Benefits-text4">
+                                 <p class="line">De Risk your Business to Covid and other Lockdowns.</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-12 col-md-6 col-sm-12 pt-3">
+                           <div class="Benefits-box">
+                              <div style="padding: 15px 29px;">
+                                 <div class="Benefits-circle5"></div>
+                              </div>
+                              <div class="Benefits-text5">
+                                 <p class="line">New Revenue Stream.</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </div>
+      <section class="tech-platform">
+         <div class="container">
+            <div class="row tech-row">
+               <div class="col-lg-7 col-md-12 col-sm-12 p-0">
+                  <div class="container">
+                     <div class="">
+                        <div class="col-md-12 p-0">
+                           <div class="image">
+                              <img class="ipad-image" src="img/ipad.png">
+                              <img class="tech-img" src="img/Phone.png"> 
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-5 col-md-12 col-sm-12 mobile-resp ipad-responsive">
+                  <h2 class="text m-0">Technology Platform</h2>
+                  <p class="desc pt-3">We will provide you
+                     with Digital
+                  </p>
+                  <div class="point ml-2">
+                     <ul class="pt-3" style="z-index: 2;">
+                        <li>FULLY WHITE LABELLED IN YOUR BRAND & COLOURS.</li>
+                        <li>WEB, IOS AND ANDROID APPS.</li>
+                        <li>TECHNOLOGY HOSTED AND MAINTAINED BY REEBLE
+                           (SAAS / HOSTED BUSINESS MODEL).
+                        </li>
+                        <li>DIGITAL CHANNEL FOR BRANDS AND SPONSORS WITH
+                           OPPORTUNITIES TO ADVERTISE.
+                        </li>
+                        <li>MULTI LANGUAGE i.e. APP WILL DISPLAY IN SPECIFIC<br>
+                           LANGUAGE BASED ON GEO LOCATION IDENTIFICATION.
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <div>
+         <img src="img/circle.png" class="circle-image">
+      </div>
+      <section class="tech_platform2 pb-4" style="margin-bottom: 35px;" id="service">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12 col-md-12 col-sm-12">
+                  <div class="">
+                     <h2 class="text pt-4">Technology Platform</h2>
+                     <p class="desc pt-3">Now you can offer the following Additional Services:</p>
+                  </div>
+                  <div class="container pt-2">
+                     <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                           <div class="full-box">
+                              <div class="circle">
+                                 <img class="onlinecoaching" src="img/Online-coaching.png">
+                              </div>
+                              <div class="box">
+                                 <div class="txt">
+                                    <p>Online Coaching</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                           <div class="full-box">
+                              <div class="circle">
+                                 <img class="live-one" src="">
+                              </div>
+                              <div class="box">
+                                 <div class="txt">
+                                    <p>Live One-to-One</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                           <div class="full-box">
+                              <div class="circle">
+                                 <img class="live-many" src="img/online-class.png" style="">
+                              </div>
+                              <div class="box">
+                                 <div class="txt">
+                                    <p>Live One-to-Many</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                           <div class="full-box">
+                              <div class="circle">
+                                 <img class="videos-icon" src="img/series-video.png">
+                              </div>
+                              <div class="box">
+                                 <div class="txt">
+                                    <p>Series of Pre-Recorded Videos</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                           <div class="full-box">
+                              <div class="circle">
+                                 <img class="masterclass" src="img/Masterclass.png">
+                              </div>
+                              <div class="box">
+                                 <div class="txt">
+                                    <p>Masterclass Courses</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                           <div class="full-box">
+                              <div class="circle">
+                                 <img class="talentspot" src="img/Talent-spot.png">
+                              </div>
+                              <div class="box">
+                                 <div class="txt">
+                                    <p>Talent Spot</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                           <div class="full-box">
+                              <div class="circle">
+                                 <img class="announcement" src="">
+                              </div>
+                              <div class="box">
+                                 <div class="txt">
+                                    <p>Announcements & Communication</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                           <div class="full-box">
+                              <div class="circle">
+                                 <img class="merchandise" src="img/Merchandise.png">
+                              </div>
+                              <div class="box">
+                                 <div class="txt">
+                                    <p>Merchandise sales</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                           <div class="full-box">
+                              <div class="circle">
+                                 <img class="sponsors" src="img/ADS.png">
+                              </div>
+                              <div class="box">
+                                 <div class="txt">
+                                    <p>Sponsors and Product Advertising</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      </div>
+      <section class="clients our-client" id="client">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-6 col-md-12 col-sm-12">
+                  <div>
+                     <h2 class="text mt-2">Our clients</h2>
+                     <p class="desc pt-3">Some of our successfull Clients</p>
+                  </div>
+                  <div class="container" style="margin:-15px;">
+                     <div class="row p-0" style="margin-bottom:50px">
+                        <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+                           <button class="b1" onClick="myFunction()">
+                              <div class="client-icon"></div>
+                           </button>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+                           <button class="b2" onClick="myFunction2()">
+                              <div class="client-icon"></div>
+                           </button>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+                           <button class="b3" onClick="myFunction3()">
+                              <div class="client-icon"></div>
+                           </button>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+                           <button class="b4" onClick="myFunction4()">
+                              <div class="client-icon"></div>
+                           </button>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+                           <button class="b5" onClick="myFunction5()">
+                              <div class="client-icon"></div>
+                           </button>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+                           <button class="b6" onClick="myFunction6()">
+                              <div class="client-icon"></div>
+                           </button>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+                           <button class="b7" onClick="myFunction7()">
+                              <div class="client-icon"></div>
+                           </button>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+                           <button class="b8" onClick="myFunction8()">
+                              <div class="client-icon"></div>
+                           </button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-6 col-md-12 col-sm-12">
+                  <div id="first"><img src="img/client-details.png"/> </div>
+                  <div id="second"><img src="img/client2.png"/> </div>
+                  <div id="third"><img src="img/client3.png"/> </div>
+                  <div id="fourth"><img src="img/client4.png"/> </div>
+                  <div id="fifth"><img src="img/client5.png"/> </div>
+                  <div id="sixth"><img src="img/client6.png"/> </div>
+                  <div id="seventh"><img src="img/client7.png"/> </div>
+                  <div id="eighth"><img src="img/client8.png"/> </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="contact" id="contact">
+         <div class="content">
+            <div class="">
+               <h2 class="text mt-2">Say Hello!</h2>
+               <p class="desc pt-3">Connect with us to know more</p>
+            </div>
+         </div>
+         <div class="container contact-container">
+            <div class="contactinfo">
+               <div class="contactbox">
+                  <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                  <div class="info">
+                     <h3>Address</h3>
+                     <p>198 West 21th Street, <br>Suite 721 New York NY 10016</p>
+                  </div>
+               </div>
+               <div class="contactbox">
+                  <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                  <div class="info">
+                     <h3>Email</h3>
+                     <a href="mailto:hii@reeble.io">
+                        <p>hii@reeble.io</p>
+                     </a>
+                  </div>
+               </div>
+               <div class="contactbox">
+                  <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                  <div class="info">
+                     <h3>Phone</h3>
+                     <p>996-955-4387</p>
+                  </div>
+               </div>
+            </div>
+            <div class="contact-form">
+               <div>
+                  <form>
+                     <h2>Send Message</h2>
+                     <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Full Name</span>
+                     </div>
+                     <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Email</span>
+                     </div>
+                     <div class="inputBox">
+                        <textarea required="required"></textarea>
+                        <span>Type your message....</span>
+                     </div>
+                     <div class="inputBox">
+                        <input type="submit" value="Send">
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="copyright">
+         <!-- <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12">
+                <p>Copyright © 2022 Reeble Platform Pvt. Ltd
+            All Rights Reserved</p>
+              </div>
+            </div>
+            </div> -->
+         <div class="container-fluid copyright-section">
+            <div class="copyright-txt">Copyright © 2022 Reeble Platform Pvt. Ltd
+               All Rights Reserved
+            </div>
+         </div>
+      </section>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script type="text/javascript" src="js/script.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+      <script type="text/javascript">
+         $('.slider').slick({
+         centerMode: true,
+         autoplay: true,
+         autoplaySpeed:1500,
+         centerPadding: '90px',
+         slidesToShow: 3,
+         responsive: [
+         {
+            breakpoint: 950,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '50px',
+              slidesToShow: 2
+            }
+          },
+         {
+            breakpoint: 900,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '50px',
+              slidesToShow: 2
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 1
+            }
+          },
+          {
+            breakpoint: 400,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '20px',
+              slidesToShow: 1
+            }
+          },
+          {
+            breakpoint: 1024,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '50px',
+              slidesToShow: 2
+            }
+          },
+          
+         ]
+         }); 
+      </script>
+      <script type="text/javascript">
+         var btn = $('#button');
+         
+         $(window).scroll(function() {
+         if ($(window).scrollTop() > 300) {
+           btn.addClass('show');
+         } else {
+           btn.removeClass('show');
+         }
+         });
+         
+         btn.on('click', function(e) {
+         e.preventDefault();
+         $('html, body').animate({scrollTop:0}, '300');
+         });
+         
+         
+      </script> 
+   </body>
+</html>
